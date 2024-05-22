@@ -1,7 +1,7 @@
 syntax = "proto3";
 
 package grpc;
-option go_package = "github.com/Manuu201/tarea2/proto";
+option go_package = "https://github.com/Manuu201/tarea2/tree/main/proto";
 
 
 service ClienteService {
