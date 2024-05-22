@@ -19,7 +19,7 @@ import (
 const _ = grpc.SupportPackageIsVersion7
 
 const (
-	ClienteService_AccionCliente_FullMethodName = "/clientegrpc.ClienteService/AccionCliente"
+	ClienteService_AccionCliente_FullMethodName = "/grpc.ClienteService/AccionCliente"
 )
 
 // ClienteServiceClient is the client API for ClienteService service.
@@ -96,7 +96,7 @@ func _ClienteService_AccionCliente_Handler(srv interface{}, ctx context.Context,
 // It's only intended for direct use with grpc.RegisterService,
 // and not to be introspected or modified (even as a copy)
 var ClienteService_ServiceDesc = grpc.ServiceDesc{
-	ServiceName: "clientegrpc.ClienteService",
+	ServiceName: "grpc.ClienteService",
 	HandlerType: (*ClienteServiceServer)(nil),
 	Methods: []grpc.MethodDesc{
 		{
