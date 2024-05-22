@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package grpc;
+package clientegrpc;
 option go_package = "github.com/Manuu201/tarea2/proto";
 
 
